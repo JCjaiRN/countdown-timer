@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background:rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(66, 51, 153);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 135px 0px 20px;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size:x-large;
+}
+#clockdiv > div{
+    padding: 50px;
+    border-radius: 7px;
+    background: #09be30;
+    display: inline-block;
+}
+
+#clockdiv > div > span{
+    padding: 65px;
+    border-radius: 7px;
+    background: rgb(8, 8, 43);
+    display: inline-block;
+}
+.smalltext{
+    padding: 5px;
+    font-size: 25px;
+}
